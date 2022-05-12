@@ -1,6 +1,5 @@
 description = "a Make/rake-like dev tool using Go"
 binaries = ["mage"]
-requires = ["go"]
 
 platform "darwin" {
   source = "https://github.com/magefile/mage/releases/download/v${version}/mage_${version}_macOS-64bit.tar.gz"
