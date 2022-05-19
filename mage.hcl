@@ -1,5 +1,7 @@
 description = "A make/rake-like dev tool using Go"
 binaries = ["mage"]
+requires = ["go"]
+test = "mage -version"
 sha256-source = "https://github.com/magefile/mage/releases/download/v${version}/mage_${version}_checksums.txt"
 
 platform "darwin" "amd64" {
