@@ -2,10 +2,17 @@ description = "A command-line utility that you can use to copy blobs or files to
 
 binaries = ["azcopy_${os}_amd64_${version}/azcopy"]
 test = "azcopy --version"
+repository = "https://github.com/Azure/azure-storage-azcopy"
 
 version "10.14.1" {
   vars = {
     release_date: "20220315"
+  }
+}
+
+version "10.15.0" {
+  vars = {
+    release_date: "20220511"
   }
 }
 

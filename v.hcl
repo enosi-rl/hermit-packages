@@ -1,6 +1,7 @@
 description = "Simple, fast, safe, compiled language for developing maintainable software."
 binaries = ["v"]
 strip = 1
+mutable = true
 
 platform "darwin" {
   source = "https://github.com/vlang/v/releases/download/weekly.${version}/v_macos.zip"
@@ -12,7 +13,7 @@ platform "linux" {
 
 version "2021.33.2" "2022.03" "2022.04" "2022.05" "2022.06" "2022.07" "2022.09"
         "2022.10" "2022.11" "2022.12" "2022.13" "2022.15" "2022.16" "2022.18" "2022.19"
-        "2022.20" {
+        "2022.20" "2022.21" "2022.22" {
   auto-version {
     github-release = "vlang/v"
     version-pattern = "weekly\\.(.*)"
