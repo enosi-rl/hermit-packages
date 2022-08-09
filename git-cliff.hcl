@@ -35,7 +35,7 @@ platform "windows" {
   }
 }
 
-version "0.7.0" "0.6.1" "0.6.0" "0.5.0" "0.4.2" "0.4.1" "0.4.0" {
+version "0.8.1" "0.8.0" "0.7.0" "0.6.1" "0.6.0" "0.5.0" "0.4.2" "0.4.1" "0.4.0" {
   auto-version {
     github-release = "git-cliff/git-cliff"
   }
